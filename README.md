@@ -126,7 +126,6 @@ Click on the Kitematic Icon
      
 Click on the MobaXterm Icon
 
-&nbsp;
 
 ***
 
@@ -146,13 +145,9 @@ Click on the MobaXterm Icon
 
 &nbsp;
 
-&nbsp;
-
-&nbsp;
-
 
 **IMPORTANT: The "port_number" Changes Every Time You Restart The Container, You Will Need to Update the SSH Session Settings**
 
-**Note: For 'root' user the password is 'root'
+**Note: For 'root' user the password is 'root'**
 
 ***
