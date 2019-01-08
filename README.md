@@ -94,8 +94,12 @@ Click on the Kitematic Icon
 
 &nbsp;
 
+&nbsp;
+
 ***
 
 <img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Container_Running.png" width="650">
 
-  
+
+  1. If in the 'CONTAINER LOGS' the line "*** Running /bin/bash" appears, the container is up and running.
+  2. This information [computer_name_or_IP**:**Port] will be used in the next step.
