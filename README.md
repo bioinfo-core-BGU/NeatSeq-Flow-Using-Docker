@@ -43,15 +43,21 @@ NeatSeq-Flow-Using-Docker
 &nbsp;
 &nbsp;
 &nbsp; 
+&nbsp;
+&nbsp;
+&nbsp; 
+&nbsp;
+&nbsp;
+&nbsp; 
 ***
   
-  <img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Get_Container.png" width="650">
+<img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Get_Container.png" width="650">
 
   1. In the search bar type 'NeatSeq'
   2. Click on the "CREATE" button.
   
   
-  ***
+***
 &nbsp;
 &nbsp;
 &nbsp;
@@ -59,12 +65,12 @@ NeatSeq-Flow-Using-Docker
 &nbsp; 
   **Note: It Will Take Some Time to Download!!!** 
 
-  <img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Download_Container.png" width="650">
+<img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Download_Container.png" width="650">
   
-  ***
+***
 &nbsp;
 &nbsp;
 &nbsp; 
-  <img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Container_Running.png" width="650">
+<img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Container_Running.png" width="650">
 
   
