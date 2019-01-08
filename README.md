@@ -42,10 +42,6 @@ NeatSeq-Flow-Using-Docker
 Click on the Kitematic Icon
 
 
-&nbsp;
- 
-
-
 ***
   
 <img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Get_Container.png" width="550">
