@@ -48,7 +48,7 @@ Click on the Kitematic Icon
 
 ***
   
-<img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Get_Container.png" width="450">
+<img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Get_Container.png" width="550">
 
   1. In the search bar type 'NeatSeq'
   2. Click on the "CREATE" button.
@@ -72,7 +72,7 @@ Click on the Kitematic Icon
 **Note: It Will Take Some Time to Download!!!** 
 
 
-<img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Download_Container.png" width="450">
+<img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Download_Container.png" width="550">
 
 &nbsp;
 
@@ -98,7 +98,7 @@ Click on the Kitematic Icon
 
 ***
 
-<img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Container_Running.png" width="450">
+<img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Container_Running.png" width="550">
 
 
   1. If in the 'CONTAINER LOGS' the line "*** Running /bin/bash" appears, the container is up and running.
