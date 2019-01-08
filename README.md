@@ -22,14 +22,16 @@ NeatSeq-Flow-Using-Docker
 ## Install on Windows
   ### For Windows 10
   
-    You Will Need (Download and Install):
-      - [Docker for Windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows). 
-      - [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/).
-      - [MobaXterm](https://mobaxterm.mobatek.net/download.html)
+  You Will Need (Download and Install):
+    
+    - [Docker for Windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows). 
+    - [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/).
+    - [MobaXterm](https://mobaxterm.mobatek.net/download.html)
     
   ### For Older Versions of Windows
   
     You Will Need:
+    
       - [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/).
       - [MobaXterm](https://mobaxterm.mobatek.net/download.html)
       
