@@ -102,7 +102,7 @@ Click on the Kitematic Icon
 
 
   1. If in the 'CONTAINER LOGS' the line "*** Running /bin/bash" appears, the container is up and running.
-  2. This information [computer_name_or_IP **:** Port] will be used in the next step.
+  2. This information [computer_name_or_IP **:** port_number] will be used in the next step.
   
 &nbsp;
 
@@ -118,15 +118,44 @@ Click on the Kitematic Icon
 
 &nbsp;
 
-&nbsp;
-  
+**IMPORTANT: Don't Close This Window As Long as You Are Using NeatSeq-Flow**
+
+***
+
   <img align="left" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/MobaXterm.png" width="50">
      
 Click on the MobaXterm Icon
 
+&nbsp;
+
+***
+
+<img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/MobaXterm_Setup.png" width="550">
+
+
+  1. Click on the "Session" button.
+  2. Click on the "SSH" button.
+    - Edit the "Remote host" tab to the "computer_name_or_IP" found in the "Kitematic" window.
+    - Click on the "Specify username" check box.
+    - Edit the "Specify username" tab to "sgeadmin".
+    - Edit the "Port" tab to the "port_number" found in the "Kitematic" window.
+  3. Click on the "OK" button.
+  
+  
+&nbsp;
 
 &nbsp;
- 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**IMPORTANT: The "port_number" Changes Every Time You Restart The Container, You Will Need to Update the SSH Session Settings**
 
 ***
