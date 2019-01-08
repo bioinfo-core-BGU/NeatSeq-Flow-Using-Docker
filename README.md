@@ -21,25 +21,32 @@ NeatSeq-Flow-Using-Docker
 
 ## Install on Windows
   ### For Windows 10
+  
     You Will Need (Download and Install):
       - [Docker for Windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows). 
       - [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/).
       - [MobaXterm](https://mobaxterm.mobatek.net/download.html)
     
   ### For Older Versions of Windows
+  
     You Will Need:
       - [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/).
       - [MobaXterm](https://mobaxterm.mobatek.net/download.html)
       
-  ### Get and Run The NeatSeq-Flow Docker Container  
+  ### Get and Run The NeatSeq-Flow Docker Container 
+  
     <img align="left" src="https://raw.githubusercontent.com/levinbgu/NeatSeq-Flow_Docker/master/doc/Kitematic.png" width="50">
+    
     - Click on the Kitematic Icon
+    
     <img align="left" src="https://raw.githubusercontent.com/levinbgu/NeatSeq-Flow_Docker/master/doc/Get_Container.png" width="650">
     
     1. In the search bar type 'NeatSeq'
     2. Click on the "CREATE" button.
     **Note: It Will Take Some Time to Download!!!** 
+    
     <img align="left" src="https://raw.githubusercontent.com/levinbgu/NeatSeq-Flow_Docker/master/doc/Download_Container.png" width="650">
+    
     <img align="left" src="https://raw.githubusercontent.com/levinbgu/NeatSeq-Flow_Docker/master/doc/Container_Running.png" width="650">
   
   
