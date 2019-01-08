@@ -40,6 +40,8 @@ NeatSeq-Flow-Using-Docker
   <img align="left" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Kitematic.png" width="50">
     
   Click on the Kitematic Icon
+&nbsp;
+&nbsp;
 &nbsp; 
 ***
   
@@ -50,12 +52,18 @@ NeatSeq-Flow-Using-Docker
   
   
   ***
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 &nbsp; 
   **Note: It Will Take Some Time to Download!!!** 
 
   <img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Download_Container.png" width="650">
   
   ***
+&nbsp;
+&nbsp;
 &nbsp; 
   <img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Container_Running.png" width="650">
 
