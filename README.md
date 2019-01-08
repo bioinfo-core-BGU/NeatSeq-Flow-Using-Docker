@@ -103,3 +103,30 @@ Click on the Kitematic Icon
 
   1. If in the 'CONTAINER LOGS' the line "*** Running /bin/bash" appears, the container is up and running.
   2. This information [computer_name_or_IP **:** Port] will be used in the next step.
+  
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+  
+  <img align="left" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/MobaXterm.png" width="50">
+     
+Click on the MobaXterm Icon
+
+
+&nbsp;
+ 
+
+
+***
