@@ -38,17 +38,12 @@ NeatSeq-Flow-Using-Docker
   ### Get and Run The NeatSeq-Flow Docker Container 
   
 <img align="left" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Kitematic.png" width="50">
-&nbsp;
-&nbsp;
-&nbsp;     
-
+     
 Click on the Kitematic Icon
 
 
 &nbsp;
-&nbsp;
-&nbsp; 
-&nbsp;
+ 
 
 
 ***
@@ -59,23 +54,20 @@ Click on the Kitematic Icon
   2. Click on the "CREATE" button.
   
 &nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp; 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp; 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp; 
 
+&nbsp;
 
+&nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 **Note: It Will Take Some Time to Download!!!** 
 
@@ -83,20 +75,24 @@ Click on the Kitematic Icon
 <img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Download_Container.png" width="650">
 
 &nbsp;
+
 &nbsp;
+
 &nbsp;
+
 &nbsp;
-&nbsp; 
+
 &nbsp;
+
 &nbsp;
+
 &nbsp;
+
 &nbsp;
-&nbsp; 
+
 &nbsp;
+
 &nbsp;
-&nbsp;
-&nbsp;
-&nbsp; 
 
 ***
 
