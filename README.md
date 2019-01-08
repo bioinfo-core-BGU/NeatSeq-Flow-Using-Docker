@@ -118,7 +118,7 @@ Click on the Kitematic Icon
 
 &nbsp;
 
-**IMPORTANT: Don't Close This Window As Long as You Are Using NeatSeq-Flow**
+**IMPORTANT: Don't Close This Window As Long as You Are Using NeatSeq-Flow!!!!!**
 
 ***
 
@@ -135,13 +135,14 @@ Click on the MobaXterm Icon
 
   1. Click on the "Session" button.
   2. Click on the "SSH" button.
+    
     - Edit the "Remote host" tab to the "computer_name_or_IP" found in the "Kitematic" window.
     - Click on the "Specify username" check box.
     - Edit the "Specify username" tab to "sgeadmin".
     - Edit the "Port" tab to the "port_number" found in the "Kitematic" window.
   3. Click on the "OK" button.
+  4. Enter the password "sgeadmin", **Note That You Will Not See a Typing Feedback**
   
-  
 &nbsp;
 
 &nbsp;
@@ -150,12 +151,9 @@ Click on the MobaXterm Icon
 
 &nbsp;
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 **IMPORTANT: The "port_number" Changes Every Time You Restart The Container, You Will Need to Update the SSH Session Settings**
+
+**Note: For 'root' user the password is 'root'
 
 ***
