@@ -164,7 +164,8 @@ Click on the MobaXterm Icon
 ## Running a Test Work-Flow
 
 ### In the Terminal Connected to The Container as 'sgeadmin', Type:
-<img align="left" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Commandline.png" width="250">
+<img align="left" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Commandline.png" width="550">
+
   1. Download the **Tutorial Work-Flow Parameter file**:
     ```Bash
       wget https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Tutorial_Parameter_file_for_docker.yaml
