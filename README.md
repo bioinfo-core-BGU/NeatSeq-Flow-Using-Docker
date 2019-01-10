@@ -196,9 +196,9 @@ Click on the MobaXterm Icon
         ```
   5.Load a Work-Flow Parameter File
    
-      <img src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-GUI/master/doc/Load_WorkFlow_parameter_file.gif" width="650">
+   <img src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-GUI/master/doc/Load_WorkFlow_parameter_file.gif" width="650">
       
-      - In the 'Work-Flow' Tab click on the 'Load WorkFlow' button, then choose the work-flow's parameter file 'Tutorial_Parameter_file.yaml' and click open.
+   - In the 'Work-Flow' Tab click on the 'Load WorkFlow' button, then choose the work-flow's parameter file 'Tutorial_Parameter_file.yaml' and click open.
   6. Run the Work-Flow
    <img src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Generate_scripts.gif" width="650">
    
@@ -209,12 +209,12 @@ Click on the MobaXterm Icon
       - Select from the "Conda environment to use" drop-down menu the "NeatSeq_Flow Tutorial" environment.
    
    
-    2. Generate the Work-Flow scripts:
+   2. Generate the Work-Flow scripts:
    
-       - Select the Sample file.
-       - Select the Work-Flow parameter-file.
-       - Choose the Project Directory to generate the Work-Flow scripts in (the default is to use the Current Working Directory )
-       - Click on the 'Generate scripts' button.
+      - Select the Sample file.
+      - Select the Work-Flow parameter-file.
+      - Choose the Project Directory to generate the Work-Flow scripts in (the default is to use the Current Working Directory )
+      - Click on the 'Generate scripts' button.
 
    3. To run the Work-Flow click on the 'Run scripts' button
    
