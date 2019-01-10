@@ -159,6 +159,7 @@ Click on the MobaXterm Icon
   You Will Need (Download and Install):
   - [Docker for Mac](https://hub.docker.com/editions/community/docker-ce-desktop-mac). 
   - [Docker Toolbox](https://docs.docker.com/toolbox/overview/)
+  
   **[Read more on Docker for Mac](https://docs.docker.com/docker-for-mac/install/)**
 
 **IMPORTANT!!! Getting the NeatSeq-Flow Container on Mac Is Similar To [Windows](#get-and-run-the-neatseq-flow-docker-container), However it was NOT Tested Yet!!!**
