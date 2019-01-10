@@ -174,9 +174,9 @@ Click on the MobaXterm Icon
        wget https://raw.githubusercontent.com/bioinfo-core-BGU/neatseq-flow-tutorial/master/Samples_conda.nsfs
     ```
   3. Run **NeatSeq-Flow GUI**:
-        ```Bash 
-          NeatSeq_Flow_GUI.py
-        ```
+    ```Bash 
+      NeatSeq_Flow_GUI.py
+    ```
 
 
 
