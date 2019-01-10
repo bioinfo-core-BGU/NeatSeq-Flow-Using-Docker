@@ -163,8 +163,10 @@ Click on the MobaXterm Icon
 
 ## Running a Test Work-Flow
 
-### In the Terminal Connected to The Container as 'sgeadmin', Type:
 <img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Commandline.png" width="450">
+
+
+### In the Terminal Connected to The Container as 'sgeadmin', Type:
 
 
 &nbsp;
