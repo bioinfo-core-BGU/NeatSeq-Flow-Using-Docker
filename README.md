@@ -194,7 +194,36 @@ Click on the MobaXterm Icon
         ``` 
           NeatSeq_Flow_GUI.py
         ```
+  5.Load a Work-Flow Parameter File
+   
+      <img src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-GUI/master/doc/Load_WorkFlow_parameter_file.gif" width="650">
+      
+      - In the 'Work-Flow' Tab click on the 'Load WorkFlow' button, then choose the work-flow's parameter file 'Tutorial_Parameter_file.yaml' and click open.
+  6. Run the Work-Flow
+   <img src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Generate_scripts.gif" width="650">
+   
+   
+   **In the 'Run' Tab:**
+    1. Choose the conda environment of which NeatSeq-Flow installed in:
+      - Click on the "Search" button next to the "Conda environment to use" field and wait until at least 2 conda environments are found. If an error occurs try again.
+      - Select from the "Conda environment to use" drop-down menu the "NeatSeq_Flow Tutorial" environment.
+   
+   
+    2. Generate the Work-Flow scripts:
+   
+       - Select the Sample file.
+       - Select the Work-Flow parameter-file.
+       - Choose the Project Directory to generate the Work-Flow scripts in (the default is to use the Current Working Directory )
+       - Click on the 'Generate scripts' button.
 
+   3. To run the Work-Flow click on the 'Run scripts' button
+   
+   <img src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Run_scripts.gif" width="650">  
+   
+   4. It is possible to monitor the Work-Flow progress by clicking the 'Run Monitor' button
+   <img src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Run_Monitor.gif" width="650">
+   
+   
 
 
 # Contact
