@@ -9,7 +9,7 @@ NeatSeq-Flow-Using-Docker
 
 ## Running the NeatSeq-Flow Platform on Windows/Mac Using a Docker Container
 
-## For more information about **"NeatSeq-Flow"** see the full documentation on **[Read The Docs](http://neatseq-flow.readthedocs.io/en/latest/)**
+### For more information about **"NeatSeq-Flow"** see the full documentation on **[Read The Docs](http://neatseq-flow.readthedocs.io/en/latest/)**
 
 
 ## Table of Contents    
@@ -229,7 +229,7 @@ Click on the MobaXterm Icon
    
    
    
-## For more information about **"NeatSeq-Flow"** see the full documentation on **[Read The Docs](http://neatseq-flow.readthedocs.io/en/latest/)**
+### For more information about **"NeatSeq-Flow"** see the full documentation on **[Read The Docs](http://neatseq-flow.readthedocs.io/en/latest/)**
    
 ## Setting The Cluster Parameters
 
