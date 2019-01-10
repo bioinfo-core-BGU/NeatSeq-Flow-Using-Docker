@@ -9,6 +9,9 @@ NeatSeq-Flow-Using-Docker
 
 ## Running the NeatSeq-Flow Platform on Windows/Mac Using a Docker Container
 
+## For more information about **"NeatSeq-Flow"** see the full documentation on **[Read The Docs](http://neatseq-flow.readthedocs.io/en/latest/)**
+
+
 ## Table of Contents    
 - [Install on Windows](#install-on-windows)
   - [For Windows 10](#for-windows-10)
@@ -211,9 +214,9 @@ Click on the MobaXterm Icon
    
    
    2. Generate the Work-Flow scripts:
-   
-      - Select the Sample file.
+      
       - Select the Work-Flow parameter-file.
+      - Select the Sample file.
       - Choose the Project Directory to generate the Work-Flow scripts in (the default is to use the Current Working Directory )
       - Click on the 'Generate scripts' button.
 
@@ -224,6 +227,9 @@ Click on the MobaXterm Icon
    4. It is possible to monitor the Work-Flow progress by clicking the 'Run Monitor' button
    <img src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Run_Monitor.gif" width="650">
    
+   
+   
+## For more information about **"NeatSeq-Flow"** see the full documentation on **[Read The Docs](http://neatseq-flow.readthedocs.io/en/latest/)**
    
 ## Setting The Cluster Parameters
 
