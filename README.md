@@ -16,6 +16,7 @@ NeatSeq-Flow-Using-Docker
   - [Get and Run The NeatSeq-Flow Docker Container](#get-and-run-the-neatseq-flow-docker-container)
 - [Install on Mac](#install-on-mac)
 - [Running a Test Work-Flow](#running-a-test-work-flow)
+- [Setting The Cluster Parameters](#setting-the-cluster-parameters)
 - [Contact](#contact)
 
 ***
@@ -196,7 +197,7 @@ Click on the MobaXterm Icon
         ```
   5.Load a Work-Flow Parameter File
    
-   <img src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-GUI/master/doc/Load_WorkFlow_parameter_file.gif" width="650">
+   <img src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Load_WorkFlow_parameter_file.gif" width="650">
       
    - In the 'Work-Flow' Tab click on the 'Load WorkFlow' button, then choose the work-flow's parameter file 'Tutorial_Parameter_file.yaml' and click open.
   6. Run the Work-Flow
@@ -224,6 +225,38 @@ Click on the MobaXterm Icon
    <img src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Run_Monitor.gif" width="650">
    
    
+## Setting The Cluster Parameters
+
+  **Make Sure That the Cluster Settings are as Follows:**
+  
+  <img src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Cluster_settings.gif" width="650">
+  
+  - In The 'Cluster' Tab:
+    1. Change the 'Executor' 'Value' to SGE
+    2. Change the 'Qsub_path' 'Value' to /opt/sge/bin/lx-amd64/
+    3. Change the 'Qsub_q' 'Value' to all.q
+
+## Setting The Available CPUs and Memory For The Container
+   
+   <img src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/CPU_and_Memory_settings.png" width="650">
+   
+   Click the whale icon in the status bar and choose 'settings'
+   - Click on advanced tab on the left.
+   - Change the number of cpus and the amount of memory you want to be available to the container.
+   - Click on the 'Apply' button
+   
+  **IMPORTANT!! Restart the Container for the changes to take place**
+  
+  To see how many CPUs and Memory available to the container, Type in the command-line:
+  
+  ```
+    ###### CPU info:######
+    lscpu
+    ###### Memory info:######
+    free -m
+    
+  ```
+
 
 
 # Contact
