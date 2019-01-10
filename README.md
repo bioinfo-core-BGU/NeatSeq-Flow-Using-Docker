@@ -175,21 +175,22 @@ Click on the MobaXterm Icon
 
 &nbsp;
 
-&nbsp;
-
-&nbsp;
-
-  1. Download the **Tutorial Work-Flow Parameter file**:
+  1. Create New Directory for the Tutorial
+       ```
+         mkdir Tutorial
+         cd Tutorial
+       ```
+  2. Download the **Tutorial Work-Flow Parameter file**:
         ```
-            wget https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Tutorial_Parameter_file_for_docker.yaml
+            wget https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Tutorial_Parameter_file.yaml
         ```
         
-  2. Download the **Tutorial Work-Flow Sample file**
+  3. Download the **Tutorial Work-Flow Sample file**
         ```
            wget https://raw.githubusercontent.com/bioinfo-core-BGU/neatseq-flow-tutorial/master/Samples_conda.nsfs
         ```
         
-  3. Run **NeatSeq-Flow GUI**:
+  4. Run **NeatSeq-Flow GUI**:
         ``` 
           NeatSeq_Flow_GUI.py
         ```
