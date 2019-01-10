@@ -16,10 +16,12 @@ NeatSeq-Flow-Using-Docker
   - [Get and Run The NeatSeq-Flow Docker Container](#get-and-run-the-neatseq-flow-docker-container)
 - [Install on Mac](#install-on-mac)
 - [Running a Test Work-Flow](#running-a-test-work-flow)
+- [Contact](#contact)
 
 ***
 
 ## Install on Windows
+  **[Read more on Docker for Windows](https://docs.docker.com/docker-for-windows/install/)**
   ### For Windows 10
   
   You Will Need (Download and Install):
@@ -30,7 +32,7 @@ NeatSeq-Flow-Using-Docker
 
   ### For Older Versions of Windows
   
-  You Will Need:
+  You Will Need (Download and Install):
     
   - [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/).
   - [MobaXterm](https://mobaxterm.mobatek.net/download.html)
@@ -147,3 +149,36 @@ Click on the MobaXterm Icon
 **Note: For 'root' user the password is 'root'**
 
 ***
+
+## Install on Mac
+
+  You Will Need (Download and Install):
+  - [Docker for Mac](https://hub.docker.com/editions/community/docker-ce-desktop-mac). 
+  - [Docker Toolbox](https://docs.docker.com/toolbox/overview/)
+  **[Read more on Docker for Mac](https://docs.docker.com/docker-for-mac/install/)**
+
+**IMPORTANT!!! Getting the NeatSeq-Flow Container on Mac Is Similar To [Windows](#get-and-run-the-neatseq-flow-docker-container), However it was NOT Tested Yet!!!**
+
+***
+
+## Running a Test Work-Flow
+
+### In the Terminal Connected to The Container as 'sgeadmin', Type:
+<img align="left" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Commandline.png" width="250">
+  1. Download the **Tutorial Work-Flow Parameter file**:
+    ```Bash
+      wget https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Tutorial_Parameter_file_for_docker.yaml
+    ```
+  2. Download the **Tutorial Work-Flow Sample file**
+    ```Bash
+       wget https://raw.githubusercontent.com/bioinfo-core-BGU/neatseq-flow-tutorial/master/Samples_conda.nsfs
+    ```
+  3. Run **NeatSeq-Flow GUI**:
+        ```Bash 
+          NeatSeq_Flow_GUI.py
+        ```
+
+
+
+# Contact
+Please contact Liron Levin at: [levinl@post.bgu.ac.il](mailto:levinl@post.bgu.ac.il)
