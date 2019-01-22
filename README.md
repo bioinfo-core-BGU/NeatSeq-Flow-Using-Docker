@@ -209,9 +209,10 @@ Click on the MobaXterm Icon
    
    
    **In the 'Run' Tab:**
-    1. Choose the conda environment of which NeatSeq-Flow installed in:
-      - Click on the "Search" button next to the "Conda environment to use" field and wait until at least 2 conda environments are found. If an error occurs try again.
-      - Select from the "Conda environment to use" drop-down menu the "NeatSeq_Flow Tutorial" environment.
+   
+  1. Choose the conda environment of which NeatSeq-Flow installed in:
+    - Click on the "Search" button next to the "Conda environment to use" field and wait until at least 2 conda environments are found. If an error occurs try again.
+    - Select from the "Conda environment to use" drop-down menu the "NeatSeq_Flow Tutorial" environment.
    
    
    2. Generate the Work-Flow scripts:
