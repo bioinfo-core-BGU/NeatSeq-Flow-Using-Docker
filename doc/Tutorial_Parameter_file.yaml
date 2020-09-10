@@ -1,153 +1,118 @@
-# Global params
-###### QSUB options
-## Qsub_q : It is required that you define a queue on which to run default scripts.
-## Default_wait: defines the time to wait between steps to ensure the job scheduler registers the jobs    correctly and hence keeps them running in correct order
-## You can limit the scripts to specific nodes in the queue. Make sure all the nodes are accessible to the queue defined in Qsub_q!
-## Qsub_opts: You can pass additional default qsub parameters as follows. These will be added to all scripts
+"Documentation": |4-
+
+    WorkFlow's Documentation
+    =========================
+    Here you can document your workflow and add notes.
+    ---------------------------------------------------
+    * **important:**
+
+        1.  **DON'T** use the hash **#** symbol!!!
+            2. Don't forget to **save** the workflow at the Design tab!!!
 Global_params:
-    Executor:          SGE
-    Default_wait:      10
-    Qsub_opts:         -cwd
-    Qsub_path:         /opt/sge/bin/lx-amd64/
-    Qsub_q:            all.q
-   # For running using conda environments:
+    Executor: SGE
+    Default_wait: '10'
+    Qsub_opts: -cwd
+    Qsub_path: /opt/sge/bin/lx-amd64/
+    Qsub_q: all.q
     conda:
-        path:       {Vars.conda.base}
-        env:        {Vars.conda.env}
-   
-## Definition of variables used in parameters below:
+        path: '{Vars.conda.base}'
+        env: '{Vars.conda.env}'
 Vars:
-    # For running using conda environments:
     conda:
-        base:       # Can be empty if running ‘export CONDA_BASE=$(conda info --root)’ from the command-line 
-        env:        NeatSeq_Flow_Tutorial
-    # If conda environment is NOT used, give the full path to the following programs:
+        base: null
+        env: NeatSeq_Flow_Tutorial
     Programs:
-        FastQC:     fastqc
-        Trimmomatic: 
-            Bin:    trimmomatic
+        FastQC: fastqc
+        Trimmomatic:
+            Bin: trimmomatic
             Adapters: $CONDA_PREFIX/share/trimmomatic-0.35-3/adapters/TruSeq2-PE.fa
-        BWA:        bwa
-        bowtie2:    bowtie2
+        BWA: bwa
+        bowtie2: bowtie2
         bowtie2_builder: bowtie2-build
-        samtools:   samtools
-        multiqc:    multiqc
-
-# Workflow step and parameters definition:
-## Definitions have the following form: 
-## Step NAME
-##     parameter name: value
-## For every step, you MUST define the following parameters: name, base, module and script_path,'merge' is the only exception. Since it is first, you do not define a base.
-## You can also define other parameters. See the manual.
-## If the parameter is logical (boolean), leave out the <value>
-## qsub_params: Every module can also have some qsub definitions
-## redirects: parameters that will be passed directly to the program, make sure the <parameter name> includes the leading '-' or '--' symbols if needed.
-## For information about the possible parameters for each module see the modules documentations.
-## USED MODULES IN THIS FILE:
-    ## merge: Copies the raw files, decompresses zipped files and concatenates multiple files.
-    ## fastqc_html: Runs the quality checking software ‘FastQC’ on all fastq files.
-    ## trimmo: Trims the reads by quality using 'Trimmomatic' program.
-    ## bwa_builder: Create an index to be used by the BWA mapper.
-    ## BWA_mapper: Maps fastq files to genomes using ‘BWA’ program.
-    ## bowtie2_builder: Create an index to be used by the bowtie2 mapper.
-    ## bowtie2_mapper: Maps fastq files to genomes using ‘bowtie2’ program. 
-    ## Samtools: Runs various ‘samtools’ on the SAM file produced by alignment modules.
-    ## Multiqc: Creates a report for various file formats: ‘FastQC’, ‘bowtie2’ log, ‘samtools’ stats and others using the MultiQC program.
-
+        samtools: samtools
+        multiqc: multiqc
 Step_params:
-
     Merge:
-        module:         Import
-        script_path:    
-
+        module: Import
+        script_path: null
     Fastqc_Merge:
-        module:         fastqc_html
-        base:           Merge
-        script_path:    {Vars.Programs.FastQC}
+        module: fastqc_html
+        base: Merge
+        script_path: '{Vars.Programs.FastQC}'
         redirects:
-            --threads:  1
-
+            --threads: 1
     Trimmomatic:
-        module:         trimmo
-        base:           Merge
-        script_path:    {Vars.Programs.Trimmomatic.Bin}
-        todo:           'ILLUMINACLIP:{Vars.Programs.Trimmomatic.Adapters}:2:30:10 LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:36'
+        module: trimmo
+        base: Merge
+        script_path: '{Vars.Programs.Trimmomatic.Bin}'
+        todo: ILLUMINACLIP:{Vars.Programs.Trimmomatic.Adapters}:2:30:10 LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:36
         redirects:
-            -threads:   1
-    
+            -threads: 1
     FastQC_Trimmomatic:
-        module:         fastqc_html
-        base:           Trimmomatic
-        script_path:    {Vars.Programs.FastQC}
+        module: fastqc_html
+        base: Trimmomatic
+        script_path: '{Vars.Programs.FastQC}'
         redirects:
-            --threads:  1
-
-
+            --threads: 1
     BWA_Index_Builder:
-        module:         bwa_builder
-        base:           Trimmomatic
-        script_path:    '{Vars.Programs.BWA} index'
-        scope:          project
-
+        module: bwa_builder
+        base: Trimmomatic
+        script_path: '{Vars.Programs.BWA} index'
+        scope: project
     BWA:
-        module:         bwa_mapper
-        base:           BWA_Index_Builder
-        script_path:    {Vars.Programs.BWA}
-        scope:          project
-        mod:            mem
+        module: bwa_mapper
+        base: BWA_Index_Builder
+        script_path: '{Vars.Programs.BWA}'
+        scope: project
+        mod: mem
         redirects:
-            -t:         1
-            -B:         5
-
+            -t: 1
+            -B: 5
     Bwt2_Index_Builder:
-        module:         bowtie2_builder
-        base:           Trimmomatic
-        script_path:    {Vars.Programs.bowtie2_builder}
-        scope:          project
-
+        module: bowtie2_builder
+        base: Trimmomatic
+        script_path: '{Vars.Programs.bowtie2_builder}'
+        scope: project
     Bwt2:
-        module:         bowtie2_mapper
-        base:           Bwt2_Index_Builder
-        script_path:    {Vars.Programs.bowtie2}
-        scope:          project
-        get_map_log:
-        get_stderr:
+        module: bowtie2_mapper
+        base: Bwt2_Index_Builder
+        script_path: '{Vars.Programs.bowtie2}'
+        scope: project
+        get_map_log: null
+        get_stderr: null
         redirects:
-            --end-to-end:
-            -p:         1
-            -q:
-
+            --end-to-end: null
+            -p: 1
+            -q: null
     Samtools_BWA:
-        module:         samtools
-        base:           BWA
-        script_path:    {Vars.Programs.samtools}
-        view:           -buh 
-        sort:           -@ 1
-        flagstat:
-        idxstats:
-        index:
-        stats:          --remove-dups
-        del_sam:
-        del_unsorted:
-
+        module: samtools
+        base: BWA
+        script_path: '{Vars.Programs.samtools}'
+        view: -buh
+        sort: -@ 1
+        index: null
+        flagstat: null
+        idxstats: null
+        stats: --remove-dups
+        del_sam: null
+        del_unsorted: null
     Samtools_Bwt2:
-        module:         samtools
-        base:           Bwt2
-        script_path:    {Vars.Programs.samtools}
-        view:           -buh 
-        sort:           -@ 1
-        flagstat:
-        idxstats:
-        index:
-        stats:          --remove-dups
-        del_sam:
-        del_unsorted:
-
+        module: samtools
+        base: Bwt2
+        script_path: '{Vars.Programs.samtools}'
+        view: -buh
+        sort: -@ 1
+        index: null
+        flagstat: null
+        idxstats: null
+        stats: --remove-dups
+        del_sam: null
+        del_unsorted: null
     QC_and_Map_MultQC:
-        module:         Multiqc
+        module: Multiqc
         base:
-            - Fastqc_Merge
-            - FastQC_Trimmomatic
-            - Samtools_Bwt2
-            - Samtools_BWA
-        script_path:    {Vars.Programs.multiqc}
+        - Fastqc_Merge
+        - FastQC_Trimmomatic
+        - Samtools_Bwt2
+        - Samtools_BWA
+        script_path: '{Vars.Programs.multiqc}'
