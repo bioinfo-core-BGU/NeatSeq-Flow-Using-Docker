@@ -124,6 +124,8 @@ Click on the Kitematic Icon
 **IMPORTANT: Don't Close This Window As Long as You Are Using NeatSeq-Flow!!!!!**
 
 ***
+### Connect to the Docker container using SSH
+
 
   <img align="left" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/MobaXterm.png" width="50">
 
@@ -131,7 +133,7 @@ Click on the MobaXterm Icon
 
 
 ***
-### Connect to the Docker container using SSH
+
 
 <img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/MobaXterm_Setup.png" width="550">
 
