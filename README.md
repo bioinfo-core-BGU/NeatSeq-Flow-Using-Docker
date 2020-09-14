@@ -181,7 +181,7 @@ Click on the MobaXterm Icon
 
 ## Running a Test Work-Flow
 
-### In the Terminal Connected to The Container as 'sgeadmin', Type:
+### In the [Terminal](##connect-to-the-docker-container-using-ssh) Connected to The Container as 'sgeadmin', Type:
 
 
 &nbsp;
