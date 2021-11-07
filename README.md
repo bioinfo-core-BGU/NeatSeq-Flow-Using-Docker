@@ -72,9 +72,9 @@ NeatSeq-Flow-Using-Docker
 
 <img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/cmd2.png" width="550">
 
-  1. Type in the terminal: 'docker pull levinl/neatseq-flow'
+  1. Type in the terminal: 
 &nbsp;
-
+**docker pull levinl/neatseq-flow**
 &nbsp;
 
 &nbsp;
