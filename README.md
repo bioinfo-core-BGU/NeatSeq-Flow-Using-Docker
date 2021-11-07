@@ -89,11 +89,6 @@ NeatSeq-Flow-Using-Docker
 
 &nbsp;
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 **Note: It Will Take Some Time to Download!!!**
 &nbsp;
@@ -102,29 +97,10 @@ NeatSeq-Flow-Using-Docker
 
 &nbsp;
 
-&nbsp;
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-
+Click on the Docker Descktop Icon
 <img align="left" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Docker.png" width="50">
-
+***
 &nbsp;
 
 &nbsp;
