@@ -260,9 +260,7 @@ Click on the "Session" button.
 ### In the 'Run' Tab:
 
    1. Generate the Work-Flow scripts:
-
-      - Select the Work-Flow parameter-file.
-      - Select the Sample file.
+      - Select the Sample file. (selected automatically when the workflow was loaded)
       - Choose the Project Directory to generate the Work-Flow scripts in.
       - Click on the 'Generate scripts' button.
 
