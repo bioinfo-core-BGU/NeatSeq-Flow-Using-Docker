@@ -245,24 +245,19 @@ Click on the "Session" button.
 
 ## Running a Test Work-Flow
 
-### In the [Terminal](#connect-to-the-docker-container-using-ssh) Connected to The Container as 'sgeadmin', Type:
 
+  1. Login to the [NeatSeq-Flow GUI](#connect-to-the-neatseq-flow-gui-using-a-web-browser) as the sgeadmin user.
 
-&nbsp;
-
-
-  4. Login to the [NeatSeq-Flow GUI](#connect-to-the-neatseq-flow-gui-using-a-web-browser) as the sgeadmin user.
-
-  5. Load a Work-Flow Parameter File
+  2. Load a Work-Flow Parameter File
 
    <img src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Load_WorkFlow_parameter_file.gif" width="650">
 
    - In the 'Work-Flow' Tab click on the 'Load WorkFlow' button, then choose the work-flow's parameter file 'Tutorial_Parameter_file.yaml' and click open.
-  6. Run the Work-Flow
+  3. Run the Work-Flow
    <img src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Generate_scripts.gif" width="650">
 
 
-   **In the 'Run' Tab:**
+### In the 'Run' Tab:
 
    1. Generate the Work-Flow scripts:
 
@@ -293,16 +288,16 @@ Click on the "Session" button.
     2. Change the 'Qsub_path' 'Value' to /opt/sge/bin/lx-amd64/
     3. Change the 'Qsub_q' 'Value' to all.q
 
-## Setting The Available CPUs and Memory For The Container
+# ## Setting The Available CPUs and Memory For The Container
 
-   <img src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/CPU_and_Memory_settings.png" width="650">
+   # <img src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/CPU_and_Memory_settings.png" width="650">
 
-   Click the whale icon in the status bar and choose 'settings'
-   - Click on advanced tab on the left.
-   - Change the number of cpus and the amount of memory you want to be available to the container.
-   - Click on the 'Apply' button
+   # Click the whale icon in the status bar and choose 'settings'
+   # - Click on advanced tab on the left.
+   # - Change the number of cpus and the amount of memory you want to be available to the container.
+   # - Click on the 'Apply' button
 
-  **IMPORTANT!! Restart the Container for the changes to take place**
+  # **IMPORTANT!! Restart the Container for the changes to take place**
 
   To see how many CPUs and Memory available to the container, Type in the command-line:
 
