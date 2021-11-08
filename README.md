@@ -125,12 +125,6 @@ Click on the Docker Descktop Icon
 
 &nbsp;
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
 
 <img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Docker2.png" width="550">
 &nbsp;
@@ -140,8 +134,38 @@ Click on the Docker Descktop Icon
 1. Type 22 in the localhost port next to the 22/tcp container port
 2. Click on the "+"
 3. Type 49190 in the localhost port next to the 49190/tcp container port
-4. Click on the RUN button.
+4. Click on the Run button.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+<img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Docker3.png" width="550">
+&nbsp;
+
+&nbsp;
+
+1. Click on the "Containers/Apps" Tab
+2. Click on the Available Container
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+<img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Docker4.png" width="550">
+&nbsp;
+
+&nbsp;
+
+Wait till you see **"Starting Flexx event loop."** in the terminal LOGS. Note: it could take a couple of minutes!
 
 ***
 ### Connect to the Docker container using SSH
