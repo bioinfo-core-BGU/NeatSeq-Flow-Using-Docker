@@ -216,7 +216,16 @@ Click on the "Session" button.
 2. In the Login page fill in the 'User Name' field with "sgeadmin"
 3. Fill in the 'Password' field with "sgeadmin" 
 
-**IMPORTANT:** You can login as any 
+**IMPORTANT:** You can login as any available user defined in the container
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 
 ## Install on Mac
 
