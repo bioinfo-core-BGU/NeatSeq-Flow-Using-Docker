@@ -250,22 +250,8 @@ Click on the "Session" button.
 
 &nbsp;
 
-  1. Create New Directory for the Tutorial
-       ```
-         mkdir Tutorial
-         cd Tutorial
-       ```
-  2. Download the **Tutorial Work-Flow Parameter file**:
-        ```
-            wget https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Tutorial_Parameter_file.yaml
-        ```
 
-  3. Download the **Tutorial Work-Flow Sample file**
-        ```
-           wget https://raw.githubusercontent.com/bioinfo-core-BGU/neatseq-flow-tutorial/master/Samples_conda.nsfs
-        ```
-
-  4. Login to the [NeatSeq-Flow GUI](#connect-to-the-neatseq-flow-gui-using-a-web-browser)
+  4. Login to the [NeatSeq-Flow GUI](#connect-to-the-neatseq-flow-gui-using-a-web-browser) as the sgeadmin user.
 
   5. Load a Work-Flow Parameter File
 
