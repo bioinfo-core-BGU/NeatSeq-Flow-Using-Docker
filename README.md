@@ -201,8 +201,12 @@ Click on the "Session" button.
   6. It is now possible to transfer files to and from the container to be used by NeatSeq-Flow.
   
 **Note:** For 'root' user the password is 'root'
+
 **IMPORTANT:** It is possible to add users (google: 'add users in linux'), however you need to login as root for that
-**IMPORTANT:** Change the password after you log in for security (google: 'change user password in linux')
+
+&nbsp;
+
+**IMPORTANT:** It is Possible to change the password after you log in(google: 'change user password in linux')
 &nbsp;
 
 &nbsp;
