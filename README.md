@@ -103,6 +103,14 @@ Click on the Docker Descktop Icon
 ***
 &nbsp;
 
+
+<img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Docker1.png" width="550">
+
+&nbsp;
+
+1. Click on the images tab
+2. Click on the RUN button next to the "levinl/neatseq-flow" image.
+3. Click on the down arrow
 &nbsp;
 
 &nbsp;
@@ -111,42 +119,18 @@ Click on the Docker Descktop Icon
 
 &nbsp;
 
+
+
+<img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Docker2.png" width="550">
 &nbsp;
 
 &nbsp;
 
-&nbsp;
+1. Type 22 in the localhost port next to the 22/tcp container port
+2. Click on the "+"
+3. Type 49190 in the localhost port next to the 49190/tcp container port
+4. Click on the RUN button.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-***
-
-<img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Container_Running.png" width="550">
-
-
-  1. If in the 'CONTAINER LOGS' the lines "User Name:" and "Password:" appears, the container has finished to load.
-  2. This information [computer_name_or_IP **:** port_number] will be used in the next step to connect to the container using SSH.
-  3. This information [computer_name_or_IP **:** port_number] will be used in the next step to connect to the NeatSeq-Flow GUI using a web browser.
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-**IMPORTANT: Don't Close This Window As Long as You Are Using NeatSeq-Flow!!!!!**
 
 ***
 ### Connect to the Docker container using SSH
@@ -163,34 +147,32 @@ Click on the MobaXterm Icon
 <img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/MobaXterm_Setup.png" width="550">
 
 
-  1. Click on the "Session" button.
-  2. Click on the "SSH" button.  
-     - Edit the "Remote host" tab to the "computer_name_or_IP" found in the "Kitematic" window next to the "22/tcp" DOCKER PORT.
+Click on the "Session" button.
+  1. Click on the "SSH" button.  
+     - Edit the "Remote host" tab to "localhost".
      - Click on the "Specify username" check box.
      - Edit the "Specify username" tab to "sgeadmin".
-     - Edit the "Port" tab to the "port_number" found in the "Kitematic" window next to the "22/tcp" DOCKER PORT.
-  3. Click on the "OK" button.
-  4. Enter the password "sgeadmin", **Note That You Will Not See a Typing Feedback**
-  5. It is now possible to transfer files to and from the container to be used by NeatSeq-Flow.
-
+  2. Click on the "OK" button.
+  3. Enter the password "sgeadmin", **Note That You Will Not See a Typing Feedback**
+  4. It is now possible to transfer files to and from the container to be used by NeatSeq-Flow.
+  
+**Note:** For 'root' user the password is 'root'
+**IMPORTANT:** It is possible to add users (google: 'add users in linux'), however you need to login as root for that
+**IMPORTANT:** Change the password after you log in for security (google: 'change user password in linux')
 &nbsp;
 
 &nbsp;
-
-
-**IMPORTANT: The "port_number" Changes Every Time You Restart The Container, You Will Need to Update the SSH Session Settings**
-
-**Note: For 'root' user the password is 'root'**
 
 ***
 ### Connect to the NeatSeq-Flow GUI using a web browser
 
 <img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/NeatSeq_Flow_login.png" width="550">
 
-1. Open a web browser and copy the computer_name_or_IP **:** port_number information found in the "Kitematic" window next to the "49190/tcp" DOCKER PORT.
-2. In the Login page fill in the 'User Name' and 'Password' fields according to the information found at the 'CONTAINER LOGS' in the "Kitematic" window.  
+1. Open a web browser and type: localhost:49190 .
+2. In the Login page fill in the 'User Name' field with "sgeadmin"
+3. Fill in the 'Password' field with "sgeadmin" 
 
-**IMPORTANT: The "port_number", "User Name" and "Password" Changes Every Time You Restart The Container**
+**IMPORTANT:** You can login as any 
 
 ## Install on Mac
 
