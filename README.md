@@ -193,12 +193,12 @@ Click on the MobaXterm Icon
 
 Click on the "Session" button.
   1. Click on the "SSH" button.  
-     - Edit the "Remote host" tab to "localhost".
+  2. Edit the "Remote host" tab to "localhost".
      - Click on the "Specify username" check box.
-     - Edit the "Specify username" tab to "sgeadmin".
-  2. Click on the "OK" button.
-  3. Enter the password "sgeadmin", **Note That You Will Not See a Typing Feedback**
-  4. It is now possible to transfer files to and from the container to be used by NeatSeq-Flow.
+  3. Edit the "Specify username" tab to "sgeadmin".
+  4. Click on the "OK" button.
+  5. Enter the password "sgeadmin", **Note That You Will Not See a Typing Feedback**
+  6. It is now possible to transfer files to and from the container to be used by NeatSeq-Flow.
   
 **Note:** For 'root' user the password is 'root'
 **IMPORTANT:** It is possible to add users (google: 'add users in linux'), however you need to login as root for that
