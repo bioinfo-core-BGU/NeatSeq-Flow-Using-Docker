@@ -165,8 +165,24 @@ Click on the Docker Descktop Icon
 
 &nbsp;
 
-Wait till you see **"Starting Flexx event loop."** in the terminal LOGS. Note: it could take a couple of minutes!
+Wait till you see **"Starting Flexx event loop."** in the terminal LOGS. 
+&nbsp;
 
+**Note:** it could take a couple of minutes!
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 ***
 ### Connect to the Docker container using SSH
 
