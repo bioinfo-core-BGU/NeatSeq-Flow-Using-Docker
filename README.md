@@ -140,8 +140,6 @@ Click on the Docker Descktop Icon
 
 &nbsp;
 
-&nbsp;
-
 
 <img align="right" src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/Docker3.png" width="550">
 &nbsp;
