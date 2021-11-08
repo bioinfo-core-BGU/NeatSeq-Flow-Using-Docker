@@ -288,16 +288,6 @@ Click on the "Session" button.
     2. Change the 'Qsub_path' 'Value' to /opt/sge/bin/lx-amd64/
     3. Change the 'Qsub_q' 'Value' to all.q
 
-# ## Setting The Available CPUs and Memory For The Container
-
-   # <img src="https://raw.githubusercontent.com/bioinfo-core-BGU/NeatSeq-Flow-Using-Docker/master/doc/CPU_and_Memory_settings.png" width="650">
-
-   # Click the whale icon in the status bar and choose 'settings'
-   # - Click on advanced tab on the left.
-   # - Change the number of cpus and the amount of memory you want to be available to the container.
-   # - Click on the 'Apply' button
-
-  # **IMPORTANT!! Restart the Container for the changes to take place**
 
   To see how many CPUs and Memory available to the container, Type in the command-line:
 
